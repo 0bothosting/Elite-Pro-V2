@@ -2,37 +2,37 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //session
-global.sessionid ='ur session id'
+global.sessionid ='{"noiseKey":{"private":{"type":"Buffer","data":"2LktNXYqXLCL9Api9/dZI7ViKG4I/w2hczP1x8hDfVw="},"public":{"type":"Buffer","data":"WmerOR6f3/L/ZyZs6fNE6VwAyjuXQvPti0UMRaWGTkQ="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"wIBAi2Dco1d8fQBwAwayHXxiahUB8UGDCKEv0mvav2M="},"public":{"type":"Buffer","data":"OVPi9QaZBMh6sm0lE/Lo5DkMPAfWEbMFhSO2h7R6m1U="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"KAbgsVN/wsNj14r2Q3qb52Z6fNlWtxpeVNtaWG+R0V4="},"public":{"type":"Buffer","data":"Qm8DagL/wGs6P/aUmgtVYEOiAEXDzSZ8KE/g0Hk+mkQ="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"4FN2HNZ+gdvfRNFurgmejIy8q7U0htDglUQR+8J0xX4="},"public":{"type":"Buffer","data":"YRnFVL/ggfkjJBQ1lGvdWl4XMacx3WVYfxfQPBtCpys="}},"signature":{"type":"Buffer","data":"cO0XVGdoIMmR1DcDnckyb+wmV7es/0ZeKy4aV2H1i4b5etvFWLAvBMMUk8OET1OkBqUAxQhEPtop/lVlzfkECA=="},"keyId":1},"registrationId":233,"advSecretKey":"OLwwfnukViUqnk4NggR2RixDzEBfkni3t845NChG3Jw=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"registered":true,"pairingCode":"V4WWGRQW","me":{"id":"2347037781124:49@s.whatsapp.net","name":"ᴇɴɪ 모","lid":"112936165097541:49@lid"},"account":{"details":"COjFh7IEEPjT6rwGGBwgACgA","accountSignatureKey":"axG6yFQku40i3YjuRbwygDLfeSygEIiOTY95sL+5AFM=","accountSignature":"bB1Chr8DwXZ8tjmdVfYGyIZDUxFw9LLidb0Di7slqYzKGZ4V1ZJ8BVQsY1s3fZJwIieTAU+ITOV9LIqQKULqDA==","deviceSignature":"/sCF1Z7P0XL3wLjiNqhn6X3ONXVq7aPT+zWqT2Zm6vRsxWuw8bul5rWwch9QAFb/f1S/bm9hRVBvp5RiVnEhAw=="},"signalIdentities":[{"identifier":{"name":"2347037781124:49@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BWsRushUJLuNIt2I7kW8MoAy33ksoBCIjk2PebC/uQBT"}}],"platform":"smba","routingInfo":{"type":"Buffer","data":"CAgIDQ=="},"lastAccountSyncTimestamp":1738189318,"lastPropHash":"2G4Amu","myAppStateKeyId":"AAAAAB3V"}'
 //owmner v card
 global.ytname = "YT: @elitepro-empire" //ur YouTube channel name
 global.socialm = "GitHub: Elite-MD" //ur github or insta name
-global.location = "Port Harcourt, Nigeria" //ur location
+global.location = "Lagos, Nigeria" //ur location
 
 //new
-global.botname = 'ELITE-PRO-V2' //ur bot name
-global.ownernumber = '2348109263390' //ur owner number
-global.ownername = 'ELITEPRO' //ur owner name
+global.botname = 'Eni' //ur bot name
+global.ownernumber = '2347037781124' //ur owner number
+global.ownername = 'Eniola' //ur owner name
 
-global.themeemoji = '👨‍💻'
-global.wm = "EliteProEmpire"
+global.themeemoji = '🥷🏿'
+global.wm = "Eni"
 global.botscript = 'https://github.com/Elite-MD/Elite-Pro-V2' //script link
 
 global.packname = "Sticker By"
 global.author = "ELITE-PRO-V2\n\n+2348109263390"
 global.creator = "2348109263390@s.whatsapp.net"
 global.xprefix = '.'
-global.premium = ["2348109263390"] // Premium User
+global.premium = ["2347037781124"] // Premium User
 global.hituet = 0
 //bot sett
 global.typemenu = 'v8' // menu type 'v1' => 'v8'
 global.typereply = 'v2' // reply type 'v1' => 'v3'
 global.autoblocknumber = '92' //set autoblock country code
 global.antiforeignnumber = '91' //set anti foreign number country code
-global.welcome = false //welcome/left in groups
+global.welcome = true //welcome/left in groups
 global.anticall = false //bot blocks user when called
-global.autoswview = false //auto status/story view
-global.adminevent = false //show promote/demote message
-global.groupevent = false //show update messages in group chat
+global.autoswview = true//auto status/story view
+global.adminevent = true //show promote/demote message
+global.groupevent = true //show update messages in group chat
 
 
 
